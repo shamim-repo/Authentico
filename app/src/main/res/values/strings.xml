@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Authentico</string>
+    <string name="title_activity_splash_screen_factivity">SplashScreenFActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="image_auth">Image Auth</string>
+    <string name="doc_auth">Document Auth</string>
+    <string name="generate_auth">Generate Hash</string>
+    <string name="source_image">Source Image</string>
+    <string name="received_image">Received Image</string>
+    <string name="received_document">Received Document</string>
+    <string name="source_document">Source Document</string>
+    <string name="source_document_hash">Source Document Hash</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="generate_hash">Generate Hash</string>
+    <string name="image_document_authentication">Image &amp; Document Authenticator</string>
+</resources>

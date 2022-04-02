@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Projects/Main/ANDROID/Authentico/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1545" />
+        <entry key="..\:/Projects/Main/ANDROID/Authentico/app/src/main/res/drawable/ic_authentico.xml" value="0.182" />
+        <entry key="..\:/Projects/Main/ANDROID/Authentico/app/src/main/res/drawable/ic_baseline_content_paste_24.xml" value="0.182" />
+        <entry key="..\:/Projects/Main/ANDROID/Authentico/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1545" />
+        <entry key="..\:/Projects/Main/ANDROID/Authentico/app/src/main/res/drawable/ic_launcher_foreground.xml" value="0.121" />
+        <entry key="..\:/Projects/Main/ANDROID/Authentico/app/src/main/res/drawable/splash_image.xml" value="0.1395" />
+        <entry key="..\:/Projects/Main/ANDROID/Authentico/app/src/main/res/layout/activity_document_auth.xml" value="0.25" />
+        <entry key="..\:/Projects/Main/ANDROID/Authentico/app/src/main/res/layout/activity_genarate_sign.xml" value="0.25" />
+        <entry key="..\:/Projects/Main/ANDROID/Authentico/app/src/main/res/layout/activity_image_auth.xml" value="0.25" />
+        <entry key="..\:/Projects/Main/ANDROID/Authentico/app/src/main/res/layout/activity_main.xml" value="0.2" />
+        <entry key="..\:/Projects/Main/ANDROID/Authentico/app/src/main/res/layout/activity_splash_screen.xml" value="0.2" />
+        <entry key="..\:/Projects/Main/ANDROID/Authentico/app/src/main/res/layout/activity_splash_screen_factivity.xml" value="0.2359375" />
+        <entry key="..\:/Projects/Main/ANDROID/Authentico/app/src/main/res/layout/custom_alart_dialog.xml" value="0.25" />
+        <entry key="..\:/Projects/Main/ANDROID/Authentico/app/src/main/res/layout/custom_dialog_authentic.xml" value="0.25" />
+        <entry key="..\:/Projects/Main/ANDROID/Authentico/app/src/main/res/layout/custom_dialog_manipulated.xml" value="0.25" />
+        <entry key="..\:/Projects/Main/ANDROID/Authentico/app/src/main/res/layout/doc_hash_autentication_fragment.xml" value="0.25" />
+        <entry key="..\:/Projects/Main/ANDROID/Authentico/app/src/main/res/layout/document_authentication_fragment.xml" value="0.264" />
+        <entry key="..\:/Projects/Main/ANDROID/Authentico/app/src/main/res/layout/fragment_generate_hash_from_image.xml" value="0.25" />
+        <entry key="..\:/Projects/Main/ANDROID/Authentico/app/src/main/res/layout/fragment_hash_form_image.xml" value="0.264" />
+        <entry key="..\:/Projects/Main/ANDROID/Authentico/app/src/main/res/layout/fragment_hash_from_document.xml" value="0.25" />
+        <entry key="..\:/Projects/Main/ANDROID/Authentico/app/src/main/res/layout/hash_autentication_fragment.xml" value="0.25" />
+        <entry key="..\:/Projects/Main/ANDROID/Authentico/app/src/main/res/layout/hash_autentication_fragment2.xml" value="0.25" />
+        <entry key="..\:/Projects/Main/ANDROID/Authentico/app/src/main/res/layout/image_autentication_fragment.xml" value="0.2" />
+        <entry key="..\:/Projects/Main/ANDROID/Authentico/app/src/main/res/layout/image_hash_autentication_fragment.xml" value="0.2" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
