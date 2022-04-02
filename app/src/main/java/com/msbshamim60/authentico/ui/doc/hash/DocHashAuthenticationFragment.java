@@ -7,6 +7,7 @@ import android.content.ClipData;
 import android.content.ClipboardManager;
 import android.content.Context;
 import android.content.Intent;
+import android.database.Cursor;
 import android.net.Uri;
 import android.os.Bundle;
 
@@ -14,6 +15,7 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
 
+import android.provider.OpenableColumns;
 import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -29,6 +31,7 @@ import com.msbshamim60.authentico.CustomDialog;
 import com.msbshamim60.authentico.R;
 
 import java.util.HashMap;
+import java.util.Locale;
 import java.util.Map;
 import java.util.Objects;
 import java.util.regex.Matcher;
@@ -120,21 +123,25 @@ public class DocHashAuthenticationFragment extends Fragment {
     }
 
     private String getExtension(Uri uri){
-        String extension = uri.getPath();
-        extension=extension.substring(extension.lastIndexOf(".") + 1);
-        extension=extension.toLowerCase();
-        Log.d("TAG", "Extension "+extension);
+        Cursor returnCursor =
+                requireActivity().getContentResolver().query(uri, null, null, null, null);
+        int nameIndex = returnCursor.getColumnIndex(OpenableColumns.DISPLAY_NAME);
+        returnCursor.moveToFirst();
+        String extension= returnCursor.getString(nameIndex).toLowerCase(Locale.ROOT);
+
+        extension=extension.substring(extension.lastIndexOf(".")+1);
+        Log.d("TAG","to l:"+extension);
         if(fileTypeIcon.get(extension)!=null)
             return extension;
         return "unknown";
     }
 
     private String getFileTitle(Uri uri){
-        String title = uri.getPath();
-        title=title.substring((title.lastIndexOf("/") + 1));
-        title=title.toLowerCase();
-        Log.d("TAG", "Extension "+title);
-        return title;
+        Cursor returnCursor =
+                requireActivity().getContentResolver().query(uri, null, null, null, null);
+        int nameIndex = returnCursor.getColumnIndex(OpenableColumns.DISPLAY_NAME);
+        returnCursor.moveToFirst();
+        return returnCursor.getString(nameIndex);
     }
 
     private void setFileTypeIcon(){

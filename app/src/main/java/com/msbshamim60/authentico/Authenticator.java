@@ -38,6 +38,7 @@ public class Authenticator {
 
     private byte[] getBytesFromDocURi(Uri uri) throws IOException {
         InputStream iStream =   application.getContentResolver().openInputStream(uri);
+
         ByteArrayOutputStream byteBuffer = new ByteArrayOutputStream();
         int bufferSize = 1024;
         byte[] buffer = new byte[bufferSize];
